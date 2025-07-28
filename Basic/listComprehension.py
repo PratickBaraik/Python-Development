@@ -27,7 +27,21 @@ print("Lowercase words:", lower_words)
 print()
 
 # nested list comprehension example
-matrix = [[1, 2], [3, 4], [5, 6]]
-flattened = [num for row in matrix for num in row]
-print("flattened matrix:", flattened)
+matrix_23 = [[1, 2], [3, 4], [5, 6]]
+print("original matrix_23:", matrix_23)
+flattened_23 = [num for row in matrix_23 for num in row]
+print("flattened matrix:", flattened_23)
+print("reversed flattened matrix:", flattened_23[::-1])
+print("reversed matrix:", matrix_23[::-1])
+print()
+
+# flattening 3 * 3 matrix
+matrix_33 = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+print("original matrix_33:", matrix_33)
+flattened_33 = [num for row in matrix_33 for num in row]
+print("flattened 3*3 matrix:", flattened_33)
 print()
