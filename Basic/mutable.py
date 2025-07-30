@@ -11,4 +11,4 @@ number[3] = 4
 print("number list after updating element:", number)
 # deleting an element from list using del 
 del number[4]
-print("number list after deleting last element:", number)
+print("number list after deleting last element:", number )
