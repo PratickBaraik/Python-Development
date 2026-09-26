@@ -18,6 +18,7 @@ print()
 # float - immutable
 y_float = 30.23
 print("y_float =", y_float)
+# print("y_float address =", id(y_float))
 print("y_float address =", id(y_float))
 
 # string - immutable
